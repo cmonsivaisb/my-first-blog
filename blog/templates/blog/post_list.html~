@@ -1,0 +1,18 @@
+<html>
+    <head> 
+        <title> CSphere Blog </title>
+    </head>
+   
+    <body>
+       <div id="encabezado">
+           <h1>Bienvenidos a CSPhere</h1>
+       </div>
+
+      <div id="contenido">
+          <p>Fecha de Publicacion:</p>
+          <h2>TItulo del Post</h2>
+   	  <p>Contenido</p>
+      </div>    
+    </body>
+</html>
+
