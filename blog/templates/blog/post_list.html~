@@ -8,11 +8,17 @@
            <h1>Bienvenidos a CSPhere</h1>
        </div>
 
-      <div id="contenido">
-          <p>Fecha de Publicacion:</p>
-          <h2>TItulo del Post</h2>
-   	  <p>Contenido</p>
-      </div>    
+      {% for post in posts %}
+        <div id="publicaciones">
+	   <p>{{ post.published_date }}</p>
+           <h1><a href="">{{ post.title}} </a></h1>
+	   <p> {{ post.text|linebreaks}}</p>
+         </div>
+      {% endfor %}
+
+	
+
     </body>
+
 </html>
 
